@@ -1,0 +1,3 @@
+# Sprint 1
+
+Ferramentas de versionamento de código são essenciais para o sucesso de projetos que envolvem código. Atualmente o Git é padrão de mercado, sendo amplamente utilizado em projetos de dados. Não menos importantes são os sistemas operacionais baseados em Linux, cujo conhecimento dos princípios básicos de operação e comandos de terminal mais comuns são necessários a qualquer profissional da área de Data & Analytics.

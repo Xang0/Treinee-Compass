@@ -1,5 +1,7 @@
 # Olá, eu sou Alexandre Carvalhaes! 👋
 
+![Foto de Perfil](perfil.jpg)
+
 Bem-vindo(a) ao meu perfil do GitHub! Aqui você encontrará projetos, contribuições e um pouco sobre mim. Sinta-se à vontade para explorar e entrar em contato!
 
 ## Sobre mim 🧑‍💻
