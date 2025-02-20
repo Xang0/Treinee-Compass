@@ -1,3 +1,9 @@
+/*
+E05
+Apresente a query para listar o nome dos autores que publicaram livros através de editoras NÃO situadas na região sul do Brasil.
+Ordene o resultado pela coluna nome, em ordem crescente. Não podem haver nomes repetidos em seu retorno.
+*/
+
 select distinct
     A.nome
 from AUTOR A
