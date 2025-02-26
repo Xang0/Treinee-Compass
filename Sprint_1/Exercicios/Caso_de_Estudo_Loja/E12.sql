@@ -25,4 +25,11 @@ from TBDEPENDENTE D
         order by sum(qtd * vrunt)
         limit 1
     ) as VEN on VEN.cdvdd = V.cdvdd
+
+/*
+Resultado:
+
+cddep	nmdep	dtnasc	valor_total_vendas
+6	Dependente 6	2018-03-02 00:00:00	39100.0
+*/
     

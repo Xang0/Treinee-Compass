@@ -18,3 +18,10 @@ from AUTOR A
     ) as L on L.autor = A.codAutor
 order by L.quantidade DESC
 limit 1
+
+/*
+Resultado:
+
+codautor	nome	quantidade_publicacoes
+67	BARP, Wilson José	7
+*/

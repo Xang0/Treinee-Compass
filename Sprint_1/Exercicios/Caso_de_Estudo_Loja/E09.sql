@@ -18,3 +18,10 @@ from TBVENDAS T
     ) as VENDAS on VENDAS.cdpro = T.cdpro
 order by VENDAS.quantidade desc
 limit 1
+
+/*
+Resultado:
+
+cdpro	nmpro
+1	Produto A
+*/

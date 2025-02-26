@@ -7,3 +7,12 @@ select
     cdven
 from TBVENDAS
 where deletado = '1'
+
+/*
+Resultado:
+
+cdven
+23
+55
+67
+*/

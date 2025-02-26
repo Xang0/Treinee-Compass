@@ -21,3 +21,11 @@ INNER JOIN (
 ) AS L ON L.editora = ED.codEditora
 ORDER BY L.quantidade DESC
 LIMIT 5
+
+/*
+Resultado:
+
+quantidade	nome	estado	cidade
+138	 CBMM	PARANÁ	Guaratuba
+30	 Ática	SÃO PAULO	São Paulo
+*/

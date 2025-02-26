@@ -16,3 +16,10 @@ group by
     nmcli
 order by sum(qtd * vrunt) desc
 limit 1
+
+/*
+Resultado:
+
+cdcli	nmcli	gasto
+9	Cliente BCA	1237250
+*/

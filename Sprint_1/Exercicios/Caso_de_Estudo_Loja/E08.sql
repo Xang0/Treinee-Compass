@@ -17,3 +17,10 @@ from TBVENDEDOR V
     ) as VENDAS on VENDAS.cdvdd = V.cdvdd
 order by VENDAS.quantidade DESC
 limit 1
+
+/*
+Resultado:
+
+cdvdd	nmvdd
+2	Vendedor 2  
+*/

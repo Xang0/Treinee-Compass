@@ -20,3 +20,17 @@ from AUTOR A
 
 where qtde.quantidade = 0
 order by A.nome
+
+/*
+Resultado:
+
+nome
+ABUNAHMAN, Sérgio Antonio
+ALLINGER, Norman L (et al)
+ALMEIDA, Alfredo Wagner Berno De
+ALMEIDA, Salvador Luiz De
+BABBITT, Harold E
+BALBO, José Tadeu
+BARBOSA, Estêvão José Da Silva
+BARROS, Maria Vitória Martins
+*/
