@@ -6,6 +6,12 @@ Esta sprint foi desenhada para formar uma base sólida na área de tecnologia. O
 
 ## Pastas
 
+O repositório da Sprint 1 é dividida da seguinte forma:
+- **Certificados:** essa pasta contêm as imagens dos certificados adquiridos durante a sprint que se apresentam também neste README
+- **Desafio:** essa pasta contêm um README que explica o que é o desafio da sprint e as entregas exigidas para a conslusão dele como, por exemplo, um arquivo .SQL ou .py
+- **Evidências:** essa pasta contêm prints que evidênciam a conclusão e os resultados dos exercícios realizados durante a sprint como também do próprio desafio. Neste caso, a pasta está dividida em mais duas: [Desafio](/Sprint_1/Evidencias/Desafio/) que apresenta as evidências do desafio e [Exercicios](/Sprint_1/Evidencias/Exercicios/) que aprenta as evidências dos exercícios 
+- **Exercícios:** essa pasta contêm os arquivos que devem ser entregues para a conslusão dos exercícios realizados durante a sprint. Neste caso, a pasta está dividida entre [Caso de Estudo do schema Biblioteca](/Sprint_1/Exercicios/Caso_de_Estudo_Biblioteca/), o [Caso de Estudo do schema Loja](/Sprint_1/Exercicios/Caso_de_Estudo_Loja/) e o [Exercício II](/Sprint_1/Exercicios/Exercicios_II/) que se refere aos CSVs com o retorno de duas queries exigidas. 
+
 ## Atividades e Cursos
 
 Durante a sprint, os conceitos abordados a prendidos por meio de cursos, víedos e atividades foi:
