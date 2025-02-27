@@ -33,11 +33,9 @@ Além disso tudo, também foi abordado os métodos ODBC e JDBC para acesso à ba
 
 ## Certificados
 
-- Certificado do Curso de Git e GitHub
-![Certificado do curso de Git e GitHub](/Sprint_1/Certificados/UC-2fc2b3ba-2bd4-465a-95f9-c3d07ef9c5c5.jpg)
+- [Certificado do curso de Git e GitHub](/Sprint_1/Certificados/UC-2fc2b3ba-2bd4-465a-95f9-c3d07ef9c5c5.jpg)
 
-- Certificado do Curso de SQL
-![Certificado docurso de SQL](/Sprint_1/Certificados/UC-7a21ec96-67a3-46c7-9423-6ca04a092e1e.jpg)
+- [Certificado do curso de SQL](/Sprint_1/Certificados/UC-7a21ec96-67a3-46c7-9423-6ca04a092e1e.jpg)
 
 ## Exercícios
 

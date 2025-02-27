@@ -24,6 +24,7 @@ CREATE TABLE d_cliente (
 	paisCliente
 )
 
+-- Inserção dos dados
 INSERT INTO d_cliente (
 	cliente,
 	nomeCliente,
@@ -46,6 +47,7 @@ CREATE TABLE d_combustivel (
 	tipoCombustivel varchar
 )
 
+-- Inserção dos dados
 INSERT INTO d_combustivel (
 	combustivel,
 	tipoCombustivel
@@ -64,11 +66,13 @@ CREATE TABLE d_carro (
 	modeloCarro varchar,
 	anoCarro int,
 	idCombustivel int,
+	-- Criação da chave estrangeira que vai referenciar a chave primaria da tabela d_combustivel
 	CONSTRAINT fk_combustivel
 		FOREIGN KEY (idCombustivel)
 		REFERENCES d_combustivel(combustivel)
 )
 
+-- Inserção dos dados
 INSERT INTO d_carro (
 	carro,
 	classiCarro,
@@ -95,6 +99,7 @@ CREATE TABLE d_vendedor (
 	estadoVendedor varchar
 )
 
+-- Inserção dos dados
 INSERT INTO d_vendedor (
 	vendedor,
 	nomeVendedor,
@@ -123,6 +128,7 @@ CREATE TABLE f_locacao (
 	horaEntrega time,
 	vendedor int,
 	
+	-- Criação das chaves estrangeiras que vão referenciar as chaves primarias das tabelas d_cliente, d_carro e d_vendedor
 	CONSTRAINT fk_cliente
 		FOREIGN KEY (cliente)
 		REFERENCES d_cliente(cliente),
@@ -134,6 +140,7 @@ CREATE TABLE f_locacao (
 		REFERENCES d_vendedor(vendedor)
 )
 
+-- Inserção dos dados
 INSERT INTO f_locacao (
 	idLocacao,
 	cliente,
