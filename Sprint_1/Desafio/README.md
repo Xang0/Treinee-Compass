@@ -10,7 +10,7 @@ O desafio é normalizar a base de dados concessionaria.sqlite, ou seja, aplicar 
 
 - [Modelo Relacional Normalizado](/Sprint_1/Desafio/normalizacao.sql)
 
-- [Modelo Dimensional]()
+- [Modelo Dimensional](/Sprint_1/Desafio/modelo_dimensional.sql)
 
 ## Normalização da tabela
 
@@ -67,3 +67,28 @@ Como resultado do script, foi criado o seguinde modelo relacional:
 
 ## Modelo Dimensional baseado no Modelo Relacional
 
+O modelo dimensional normalmente é criado de duas formas diferentes: ou em um outro banco de dados após serem lidos em uma stage_area ou por meio de views no mesmo banco de dados que vão representar os fatos e dimensões. No caso dessa etapa do desafio, a forma que seria possível criar um modelo dimensional a partir de um relacional seria por meio de views.
+
+Dessa forma, como o modelo dimensional busca tornar as querias mais leves para suportar um alto volume de acesso aos dados por elas, o schema mais comum de ser utilizado é o Star Schema o qual possuí apenas conexões de tabelas fatos com tabelas dimensões. Portanto, o script cria 4 views: fato_locacao que vai apresentar os dados da tabela f_locacao, dim_vendedor que apresenta os dados da tabela d_vendedor, dim_cliente que apresenta os dados da tabela d_cliente e dim_carro que apresenta os dados das tabelas d_carro e d_combustivel.
+
+Para a criação do modelo por meio de viewers foi utilizado o comando SQL **CREATE VIEW nome_da_view AS SELECT ...** como demonstrado a seguir:
+
+````sql
+-- Criação da viewer
+CREATE VIEW dim_carro AS
+-- Definição dos dados que a viewer deve apresentar
+SELECT
+	D.carro AS CARRO,
+	D.classiCarro AS CLASSI_CARRO,
+	D.marcaCarro AS MARCA_CARRO,
+	D.modeloCarro AS MODELO_CARRO,
+	D.anoCarro AS ANO_FABRICACAO,
+	D.idCombustivel AS ID_COMBUSTIVEL,
+	C.tipoCombustivel AS COMBUSTIVEL
+FROM d_carro D
+INNER JOIN d_combustivel AS C ON D.idCombustivel = C.combustivel;
+````
+
+Como resultado do script, foi criado o seguinde modelo relacional:
+
+![Modelo dimensional](/Sprint_1/Evidencias/Desafio/modelo_dimensional.png)
