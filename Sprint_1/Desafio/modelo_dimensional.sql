@@ -56,7 +56,7 @@ SELECT
 	D.marcaCarro AS MARCA_CARRO,
 	D.modeloCarro AS MODELO_CARRO,
 	D.anoCarro AS ANO_FABRICACAO,
-	kmCarro AS KM_CORRIDO,
+	D.kmCarro AS KM_CORRIDO,
 	D.idCombustivel AS ID_COMBUSTIVEL,
 	C.tipoCombustivel AS COMBUSTIVEL
 FROM d_carro D
