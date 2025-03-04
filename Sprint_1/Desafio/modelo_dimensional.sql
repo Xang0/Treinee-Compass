@@ -20,7 +20,6 @@ SELECT
 	idLocacao AS ID_LOCACAO,
 	cliente AS ID_CLIENTE,
 	carro AS ID_CARRO,
-	kmCarro AS KM_CORRIDO,
 	dataLocacao AS DATA_LOCACAO,
 	horaLocacao AS HORA_LOCACAO,
 	qtdDiaria AS QTD_DIARIA,
@@ -57,6 +56,7 @@ SELECT
 	D.marcaCarro AS MARCA_CARRO,
 	D.modeloCarro AS MODELO_CARRO,
 	D.anoCarro AS ANO_FABRICACAO,
+	kmCarro AS KM_CORRIDO,
 	D.idCombustivel AS ID_COMBUSTIVEL,
 	C.tipoCombustivel AS COMBUSTIVEL
 FROM d_carro D
