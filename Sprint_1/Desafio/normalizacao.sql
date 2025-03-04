@@ -65,6 +65,7 @@ CREATE TABLE d_carro (
 	marcaCarro varchar,
 	modeloCarro varchar,
 	anoCarro int,
+	kmCarro int,
 	idCombustivel int,
 	-- Criação da chave estrangeira que vai referenciar a chave primaria da tabela d_combustivel
 	CONSTRAINT fk_combustivel
@@ -79,6 +80,7 @@ INSERT INTO d_carro (
 	marcaCarro,
 	modeloCarro,
 	anoCarro,
+	kmCarro,
 	idCombustivel
 )
 SELECT DISTINCT
@@ -87,8 +89,10 @@ SELECT DISTINCT
 	marcaCarro,
 	modeloCarro,
 	anoCarro,
+	MAX(kmCarro),
 	idcombustivel
-FROM tb_locacao;
+FROM tb_locacao
+GROUP BY idcarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idcombustivel;
 
 
 /* Criação da tabela d_vendedor*/
@@ -119,7 +123,6 @@ CREATE TABLE f_locacao (
 	idLocacao int primary key,
 	cliente int,
 	carro int,
-	kmCarro int,
 	dataLocacao datetime,
 	horaLocacao time,
 	qtdDiaria int,
@@ -145,7 +148,6 @@ INSERT INTO f_locacao (
 	idLocacao,
 	cliente,
 	carro,
-	kmCarro,
 	dataLocacao,
 	horaLocacao,
 	qtdDiaria,
@@ -158,7 +160,6 @@ SELECT DISTINCT
 	idLocacao,
 	idCliente,
 	idCarro,
-	kmCarro,
 	dataLocacao,
 	horaLocacao,
 	qtdDiaria,
