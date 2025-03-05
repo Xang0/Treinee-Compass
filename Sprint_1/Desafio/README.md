@@ -19,9 +19,9 @@ O schema concessionaria.sqlite possuia apenas a tabela tb_locacao que contêm o 
 Dessa forma, para colocar a tabela na 1FN e 2FN, que se referem, respectivamente, à retirar grupos e/ou atributos repetitivos e eliminar as dependências parcias deixando apenas na tabela aquilo que se refere a essa entidade, foi necessário dividir a tabela tb_locacao em:
 - d_cliente que contêm os atributos cliente, nomeCliente, cidadeCliente, estadoCliente e paisCliente
 - d_vendedor que contêm os atributos vendedor, nomeVendedor, sexoVendedor e estadoVendedor
-- d_carro que contêm os atributos carro, classiCarro, marcaCarro, modeloCarro, anoCarro, idCombustivel e tipoCombustivel
+- d_carro que contêm os atributos carro, classiCarro, marcaCarro, modeloCarro, anoCarro, kmCarro, idCombustivel e tipoCombustivel
 - d_combustivel que contêm os atributos combustivel e tipoCombustivel
-- f_locacao que contêm os atributos idLocacao, cliente, carro, kmCarro, dataLocacao, horaLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega e vendedor
+- f_locacao que contêm os atributos idLocacao, cliente, carro, dataLocacao, horaLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega e vendedor
 
 E para colocar a tabela na 3FN, que se refere a retirar as dependências tarnsitivas, foi necessário criar a tabela d_combustivel que retira a dependência transitiva do atributo tipoCombustivel com a chave primaria carro. Portanto, o script para a normalização dos dados envolve a criação das tabelas citadas como também a inserção dos dados presentes na tabela tb_locacao para as novas.
 
@@ -91,4 +91,4 @@ INNER JOIN d_combustivel AS C ON D.idCombustivel = C.combustivel;
 
 Como resultado do script, foi criado o seguinde modelo relacional:
 
-![Modelo dimensional](/Sprint_1/Evidencias/Desafio/modelo_dimensional.png)
+![Modelo dimensional](/Sprint_1/Evidencias/Desafio/concessionaria_modelo_dimensional.png)
