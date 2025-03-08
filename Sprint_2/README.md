@@ -22,7 +22,44 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 
 
 ## Exercícios
+<details>
+<summary>Python Básico</summary>
 
+- [**Exercicio 1:**](/Sprint_2/Exercicios/Parte1/ex1.py)
+- [**Exercicio 2:**](/Sprint_2/Exercicios/Parte1/ex2.py)
+- [**Exercicio 3:**](/Sprint_2/Exercicios/Parte1/ex3.py)
+- [**Exercicio 4:**](/Sprint_2/Exercicios/Parte1/ex4.py)
+- [**Exercicio 5:**](/Sprint_2/Exercicios/Parte1/ex5.py)
+- [**Exercicio 6:**](/Sprint_2/Exercicios/Parte1/ex6.py)
+- [**Exercicio 7:**](/Sprint_2/Exercicios/Parte1/ex7.py)
+- [**Exercicio 8:**](/Sprint_2/Exercicios/Parte1/ex8.py)
+- [**Exercicio 9:**](/Sprint_2/Exercicios/Parte1/ex9.py)
+- [**Exercicio 10:**](/Sprint_2/Exercicios/Parte1/ex10.py)
+- [**Exercicio 11:**](/Sprint_2/Exercicios/Parte1/ex11.py)
+- [**Exercicio 12:**](/Sprint_2/Exercicios/Parte1/ex12.py)
+- [**Exercicio 13:**](/Sprint_2/Exercicios/Parte1/ex13.py)
+- [**Exercicio 14:**](/Sprint_2/Exercicios/Parte1/ex14.py)
+
+</details>
 
 ## Evidências
 
+<details>
+<summary>Python Básico</summary>
+
+- [Evidência do Exercício 1](/Sprint_2/Evidencias/Exercicios/exercicio_1.png)
+- [Evidência do Exercício 2](/Sprint_2/Evidencias/Exercicios/exercicio_2.png)
+- [Evidência do Exercício 3](/Sprint_2/Evidencias/Exercicios/exercicio_3.png)
+- [Evidência do Exercício 4](/Sprint_2/Evidencias/Exercicios/exercicio_4.png)
+- [Evidência do Exercício 5](/Sprint_2/Evidencias/Exercicios/exercicio_5.png)
+- [Evidência do Exercício 6](/Sprint_2/Evidencias/Exercicios/exercicio_6.png)
+- [Evidência do Exercício 7](/Sprint_2/Evidencias/Exercicios/exercicio_7.png)
+- [Evidência do Exercício 8](/Sprint_2/Evidencias/Exercicios/exercicio_8.png)
+- [Evidência do Exercício 9](/Sprint_2/Evidencias/Exercicios/exercicio_9.png)
+- [Evidência do Exercício 10](/Sprint_2/Evidencias/Exercicios/exercicio_10.png)
+- [Evidência do Exercício 11](/Sprint_2/Evidencias/Exercicios/exercicio_11.png)
+- [Evidência do Exercício 12](/Sprint_2/Evidencias/Exercicios/exercicio_12.png)
+- [Evidência do Exercício 13](/Sprint_2/Evidencias/Exercicios/exercicio_13.png)
+- [Evidência do Exercício 14](/Sprint_2/Evidencias/Exercicios/exercicio_14.png)
+
+</details>
