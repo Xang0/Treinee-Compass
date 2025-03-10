@@ -25,20 +25,31 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 <details>
 <summary>Python Básico</summary>
 
-- [**Exercicio 1:**](/Sprint_2/Exercicios/Parte1/ex1.py)
-- [**Exercicio 2:**](/Sprint_2/Exercicios/Parte1/ex2.py)
-- [**Exercicio 3:**](/Sprint_2/Exercicios/Parte1/ex3.py)
-- [**Exercicio 4:**](/Sprint_2/Exercicios/Parte1/ex4.py)
-- [**Exercicio 5:**](/Sprint_2/Exercicios/Parte1/ex5.py)
-- [**Exercicio 6:**](/Sprint_2/Exercicios/Parte1/ex6.py)
-- [**Exercicio 7:**](/Sprint_2/Exercicios/Parte1/ex7.py)
-- [**Exercicio 8:**](/Sprint_2/Exercicios/Parte1/ex8.py)
-- [**Exercicio 9:**](/Sprint_2/Exercicios/Parte1/ex9.py)
-- [**Exercicio 10:**](/Sprint_2/Exercicios/Parte1/ex10.py)
-- [**Exercicio 11:**](/Sprint_2/Exercicios/Parte1/ex11.py)
-- [**Exercicio 12:**](/Sprint_2/Exercicios/Parte1/ex12.py)
-- [**Exercicio 13:**](/Sprint_2/Exercicios/Parte1/ex13.py)
-- [**Exercicio 14:**](/Sprint_2/Exercicios/Parte1/ex14.py)
+- [**Exercicio 1**](/Sprint_2/Exercicios/Parte1/ex1.py)
+- [**Exercicio 2**](/Sprint_2/Exercicios/Parte1/ex2.py)
+- [**Exercicio 3**](/Sprint_2/Exercicios/Parte1/ex3.py)
+- [**Exercicio 4**](/Sprint_2/Exercicios/Parte1/ex4.py)
+- [**Exercicio 5**](/Sprint_2/Exercicios/Parte1/ex5.py)
+- [**Exercicio 6**](/Sprint_2/Exercicios/Parte1/ex6.py)
+- [**Exercicio 7**](/Sprint_2/Exercicios/Parte1/ex7.py)
+- [**Exercicio 8**](/Sprint_2/Exercicios/Parte1/ex8.py)
+- [**Exercicio 9**](/Sprint_2/Exercicios/Parte1/ex9.py)
+- [**Exercicio 10**](/Sprint_2/Exercicios/Parte1/ex10.py)
+- [**Exercicio 11**](/Sprint_2/Exercicios/Parte1/ex11.py)
+- [**Exercicio 12**](/Sprint_2/Exercicios/Parte1/ex12.py)
+- [**Exercicio 13**](/Sprint_2/Exercicios/Parte1/ex13.py)
+- [**Exercicio 14**](/Sprint_2/Exercicios/Parte1/ex14.py)
+
+</details>
+
+<details>
+<summary>Python Avançado I</summary>
+
+- [**Exercicio 15**](/Sprint_2/Exercicios/Parte2/ex15.py)
+- [**Exercicio 16**](/Sprint_2/Exercicios/Parte2/ex16.py)
+- [**Exercicio 17**](/Sprint_2/Exercicios/Parte2/ex17.py)
+- [**Exercicio 18**](/Sprint_2/Exercicios/Parte2/ex17.py)
+- [**Exercicio 19**](/Sprint_2/Exercicios/Parte2/ex19.py)
 
 </details>
 
@@ -47,19 +58,85 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 <details>
 <summary>Python Básico</summary>
 
-- [Evidência do Exercício 1](/Sprint_2/Evidencias/Exercicios/exercicio_1.png)
-- [Evidência do Exercício 2](/Sprint_2/Evidencias/Exercicios/exercicio_2.png)
-- [Evidência do Exercício 3](/Sprint_2/Evidencias/Exercicios/exercicio_3.png)
-- [Evidência do Exercício 4](/Sprint_2/Evidencias/Exercicios/exercicio_4.png)
-- [Evidência do Exercício 5](/Sprint_2/Evidencias/Exercicios/exercicio_5.png)
-- [Evidência do Exercício 6](/Sprint_2/Evidencias/Exercicios/exercicio_6.png)
-- [Evidência do Exercício 7](/Sprint_2/Evidencias/Exercicios/exercicio_7.png)
-- [Evidência do Exercício 8](/Sprint_2/Evidencias/Exercicios/exercicio_8.png)
-- [Evidência do Exercício 9](/Sprint_2/Evidencias/Exercicios/exercicio_9.png)
-- [Evidência do Exercício 10](/Sprint_2/Evidencias/Exercicios/exercicio_10.png)
-- [Evidência do Exercício 11](/Sprint_2/Evidencias/Exercicios/exercicio_11.png)
-- [Evidência do Exercício 12](/Sprint_2/Evidencias/Exercicios/exercicio_12.png)
-- [Evidência do Exercício 13](/Sprint_2/Evidencias/Exercicios/exercicio_13.png)
-- [Evidência do Exercício 14](/Sprint_2/Evidencias/Exercicios/exercicio_14.png)
+- **Evidência do Exercício 1:**
+
+![Evidência do Exercício 1](/Sprint_2/Evidencias/Exercicios/exercicio_1.png)
+
+- **Evidência do Exercício 2:**
+
+![Evidência do Exercício 2](/Sprint_2/Evidencias/Exercicios/exercicio_2.png)
+
+- **Evidência do Exercício 3:**
+
+![Evidência do Exercício 3](/Sprint_2/Evidencias/Exercicios/exercicio_3.png)
+
+- **Evidência do Exercício 4:**
+
+![Evidência do Exercício 4](/Sprint_2/Evidencias/Exercicios/exercicio_4.png)
+
+- **Evidência do Exercício 5:**
+
+![Evidência do Exercício 5](/Sprint_2/Evidencias/Exercicios/exercicio_5.png)
+
+- **Evidência do Exercício 6:**
+
+![Evidência do Exercício 6](/Sprint_2/Evidencias/Exercicios/exercicio_6.png)
+
+- **Evidência do Exercício 7:**
+
+![Evidência do Exercício 7](/Sprint_2/Evidencias/Exercicios/exercicio_7.png)
+
+- **Evidência do Exercício 8:**
+
+![Evidência do Exercício 8](/Sprint_2/Evidencias/Exercicios/exercicio_8.png)
+
+- **Evidência do Exercício 9:**
+
+![Evidência do Exercício 9](/Sprint_2/Evidencias/Exercicios/exercicio_9.png)
+
+- **Evidência do Exercício 10:**
+
+![Evidência do Exercício 10](/Sprint_2/Evidencias/Exercicios/exercicio_10.png)
+
+- **Evidência do Exercício 11:**
+
+![Evidência do Exercício 11](/Sprint_2/Evidencias/Exercicios/exercicio_11.png)
+
+- **Evidência do Exercício 12:**
+
+![Evidência do Exercício 12](/Sprint_2/Evidencias/Exercicios/exercicio_12.png)
+
+- **Evidência do Exercício 13:**
+
+![Evidência do Exercício 13](/Sprint_2/Evidencias/Exercicios/exercicio_13.png)
+
+- **Evidência do Exercício 14:**
+
+![Evidência do Exercício 14](/Sprint_2/Evidencias/Exercicios/exercicio_14.png)
+
+</details>
+
+<details>
+<summary>Python Avançado I</summary>
+
+- **Evidência do Exercício 15:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_15.png)
+
+- **Evidência do Exercício 16:**
+
+![Evidência do Exercício 16](/Sprint_2/Evidencias/Exercicios/exercicio_16.png)
+
+- **Evidência do Exercício 17:**
+
+![Evidência do Exercício 17](/Sprint_2/Evidencias/Exercicios/exercicio_17.png)
+
+- **Evidência do Exercício 18:**
+
+![Evidência do Exercício 18](/Sprint_2/Evidencias/Exercicios/exercicio_18.png)
+
+- **Evidência do Exercício 19:**
+
+![Evidência do Exercício 19](/Sprint_2/Evidencias/Exercicios/exercicio_19.png)
 
 </details>
