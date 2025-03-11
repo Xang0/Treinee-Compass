@@ -53,6 +53,19 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 
 </details>
 
+<details>
+<summary>Python Avançado II</summary>
+
+- [**Exercicio 20**](/Sprint_2/Exercicios/Parte3/ex20.py)
+- [**Exercicio 21**](/Sprint_2/Exercicios/Parte3/ex21.py)
+- [**Exercicio 22**](/Sprint_2/Exercicios/Parte3/ex22.py)
+- [**Exercicio 23**](/Sprint_2/Exercicios/Parte3/ex23.py)
+- [**Exercicio 24**](/Sprint_2/Exercicios/Parte3/ex24.py)
+- [**Exercicio 25**](/Sprint_2/Exercicios/Parte3/ex25.py)
+- [**Exercicio 26**](/Sprint_2/Exercicios/Parte3/ex26.py)
+
+</details>
+
 ## Evidências
 
 <details>
@@ -138,5 +151,38 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 - **Evidência do Exercício 19:**
 
 ![Evidência do Exercício 19](/Sprint_2/Evidencias/Exercicios/exercicio_19.png)
+
+</details>
+
+<details>
+<summary>Python Avançado II</summary>
+
+- **Evidência do Exercício 20:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_20.png)
+
+- **Evidência do Exercício 21:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_21.png)
+
+- **Evidência do Exercício 22:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_22.png)
+
+- **Evidência do Exercício 23:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_23.png)
+
+- **Evidência do Exercício 24:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_24.png)
+
+- **Evidência do Exercício 25:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_25.png)
+
+- **Evidência do Exercício 26:**
+
+![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_26.png)
 
 </details>
