@@ -10,16 +10,20 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 - **Certificados:** essa pasta contêm as imagens dos certificados adquiridos durante a sprint que se apresentam também neste README
 - **Desafio:** essa pasta contêm um README que explica o que é o desafio da sprint e as entregas exigidas para a conslusão dele como, por exemplo, um arquivo .SQL ou .py
 - **Evidências:** essa pasta contêm prints que evidênciam a conclusão e os resultados dos exercícios realizados durante a sprint como também do próprio desafio. Neste caso, a pasta está dividida em mais duas: [Desafio](/Sprint_2/Evidencias/Desafio/) que apresenta as evidências do desafio e [Exercicios](/Sprint_2/Evidencias/Exercicios/) que aprenta as evidências dos exercícios 
-- **Exercícios:** essa pasta contêm os arquivos que devem ser entregues para a conslusão dos exercícios realizados durante a sprint. Neste caso, 
+- **Exercícios:** essa pasta contêm os arquivos que devem ser entregues para a conslusão dos exercícios realizados durante a sprint. Neste caso, estão presente os exercícios [Básicos de Python](/Sprint_2/Exercicios/Parte1/), os exercícios [Avançados I](/Sprint_2/Exercicios/Parte2/) envolvendo POO, os exercícios [Avançados II](/Sprint_2/Exercicios/Parte3/) envonvelndo paradigma funcional e os exercícios sobre [ETL](/Sprint_2/Exercicios/Parte4/).
 
 ## Atividades e Cursos
 
+Durante a sprint, os conceitos abordados a prendidos por meio de cursos, víedos e atividades foi:
+- Noções do básico ao avançado como os paradigmas funcional e orientado a objetos como também o acesso a banco de dados em Python.
+- Introdução às bibliotecas Pandas, Numpy e Matplotlib para ciência de dados com Python
 
 ## Aprendizados
 
 
 ## Certificados
 
+- [Curso de Ciência de Dados com Python](/Sprint_2/Certificados/UC-9dce4929-4d99-40f5-8950-5749bfb72f04.jpg)
 
 ## Exercícios
 <details>
@@ -63,6 +67,13 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 - [**Exercicio 24**](/Sprint_2/Exercicios/Parte3/ex24.py)
 - [**Exercicio 25**](/Sprint_2/Exercicios/Parte3/ex25.py)
 - [**Exercicio 26**](/Sprint_2/Exercicios/Parte3/ex26.py)
+
+</details>
+
+<details>
+<summary>Python para ETL</summary>
+
+- [**ETL**](/Sprint_2/Exercicios/Parte4/etl.ipynb)
 
 </details>
 
@@ -184,5 +195,20 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 - **Evidência do Exercício 26:**
 
 ![Evidência do Exercício 15](/Sprint_2/Evidencias/Exercicios/exercicio_26.png)
+
+</details>
+
+<details>
+<summary>Python para ETL</summary>
+
+- [**Etapa 1**](/Sprint_2/Exercicios/Parte4/etapa_1.txt)
+
+- [**Etapa 2**](/Sprint_2/Exercicios/Parte4/etapa_2.txt)
+
+- [**Etapa 3**](/Sprint_2/Exercicios/Parte4/etapa_3.txt)
+
+- [**Etapa 4**](/Sprint_2/Exercicios/Parte4/etapa_4.txt)
+
+- [**Etapa 5**](/Sprint_2/Exercicios/Parte4/etapa_5.txt)
 
 </details>
