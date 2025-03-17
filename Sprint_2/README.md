@@ -17,13 +17,13 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 Durante a sprint, os conceitos abordados a prendidos por meio de cursos, víedos e atividades foi:
 - Noções do básico ao avançado como os paradigmas funcional e orientado a objetos como também o acesso a banco de dados em Python.
 - Introdução às bibliotecas Pandas, Numpy e Matplotlib para ciência de dados com Python
-
-## Aprendizados
-
+- Noções básicas sobre estatística como, por exemplo, explicação das medidas mais utilizadas, formas de representações gráficas de dados e como fazer isso utilizando Python.
 
 ## Certificados
 
+- [Curso Completo do Básico ao Avançado de Pyhton]()
 - [Curso de Ciência de Dados com Python](/Sprint_2/Certificados/UC-9dce4929-4d99-40f5-8950-5749bfb72f04.jpg)
+- [Curso de Estatística Descritiva com Python](/Sprint_2/Certificados/UC-f9ef04bb-b1f2-4f49-a6ce-6189bfe465f9%20(1).jpg)
 
 ## Exercícios
 <details>
