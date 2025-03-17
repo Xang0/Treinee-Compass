@@ -21,7 +21,7 @@ Durante a sprint, os conceitos abordados a prendidos por meio de cursos, víedos
 
 ## Certificados
 
-- [Curso Completo do Básico ao Avançado de Pyhton]()
+- [Curso Completo do Básico ao Avançado de Pyhton](/Sprint_2/Certificados/UC-be4a5c61-8a9f-407f-9cac-b04659525fc6.jpg)
 - [Curso de Ciência de Dados com Python](/Sprint_2/Certificados/UC-9dce4929-4d99-40f5-8950-5749bfb72f04.jpg)
 - [Curso de Estatística Descritiva com Python](/Sprint_2/Certificados/UC-f9ef04bb-b1f2-4f49-a6ce-6189bfe465f9%20(1).jpg)
 
