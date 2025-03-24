@@ -1,0 +1,10 @@
+Q1:
+A artista que mais aparece na lista é Taylor Swift aparecendo 4 vezes e com uma média de faturamento 381518786.5
+
+Q2:
+A turne de um ano com a maior média de faturamento bruto foi a turne Renaissance World Tour com um faturamento médio de 10353571.0
+
+Q3:
+1. Taylor Swift com o show no valor de 13928571.42857143 na turne The Eras Tour †
+2. Beyoncé com o show no valor de 10353571.42857143 na turne Renaissance World Tour
+3. Madonna com o show no valor de 6595560.176470588 na turne Sticky & Sweet Tour ‡[4][a]

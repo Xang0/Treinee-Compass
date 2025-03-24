@@ -3,6 +3,7 @@
 ## Enunciado
 
 O seu objetivo é ler o arquivo de estatísticas da Loja da Google googleplatstore.csv, processar e gerar gráficos de análise. Para isso será necessário:
+
 - Etapa 1: certifique-se que a biblioteca pandas e matplotlib estejam instaladas. Caso não estejam, instale-as.
 - Etapa 2: leia o arquivo csv googleplatstore.csv e utilizando as bibliotecas Pandas e Matplotlib, realize as seguintes atividades sobre o dataset
     1. Remova as linhas duplicadas
@@ -16,7 +17,7 @@ O seu objetivo é ler o arquivo de estatísticas da Loja da Google googleplatsto
 
 ## Códigos Fonte
 
-- [Script .IPYNB da resolução do desafio](/Sprint_2/Desafio/desafio.ipynb)
+- [Script .IPYNB da resolução do desafio](./Sprint_2/Desafio/desafio.ipynb)
 
 ## Etapa 1
 
@@ -39,13 +40,14 @@ dados = dados.drop_duplicates()
 
 O resto do dasafio foi feito da seguinte forma:
 
-### 2. Faça um gráfico de barras contendo os top 5 apps por número de instalação:
+### 2. Faça um gráfico de barras contendo os top 5 apps por número de instalação
 
 Para a resolução desse exercício eu filtrei o dataset para trabalhar apenas com as colununas 'App' e 'Installs', fiz o tratamento dos dados da coluna Installs para que eu consiga transformar os valores dela em números inteiros, ordenei de forma descrescente e finalmente peguei os 5 primeiros valores.
 
 Com os dados prontos, eu fiz a plotagem deles em um gráfico de barras horizontais, pois dessa forma é mais fácil visualizar os dados e o que eles representam:
 
 - **Código:**
+
 ````python
 # Filtrando o dataset pelas colunas 'App' e 'Installs'
 top_apps_installs = dados[['App', 'Installs']]
@@ -67,15 +69,16 @@ plt.show()
 ````
 
 - **Resultado:**
-![Evidência do Exercício 2](/Sprint_2/Evidencias/Desafio/exercicio_2.png)
+![Evidência do Exercício 2](./Sprint_2/Evidencias/Desafio/exercicio_2.png)
 
-### 3. Faça um gráfico de pizza (pie chart) mostrando as categorias de apps existentes no dataset de acordo com a frequência em que elas aparecem:
+### 3. Faça um gráfico de pizza (pie chart) mostrando as categorias de apps existentes no dataset de acordo com a frequência em que elas aparecem
 
 Para a resolução desse exercício, eu faço o cálculo da frequência relativa de cada categoria no dataset e crio uma lista com esses valores em ordem decrescente usando a função **sort_values()**. Porém, com a quantidade de categorias de apps existente no dataset, o gráfico de pizza ficaria confuso e muito cheio de informação. Portanto, eu cria duas listas: top_categorias que possui as categorias com maior frequência e outros_percent que vai possuir a soma da frequência do resto das categorias para ser usado como o valor "Outros" no gráfico.
 
 Após isso, eu concateno as duas variáveis de forma que agora eu tenho uma lista com as principais categorias e uma chamado "Outros" para a plotagem dos dados:
 
 - **Código:**
+
 ````python
 # Crio uma serie com a frequência relativa de cada categoria no dataset
 categorias = dados['Category'].value_counts(ascending=False, normalize=True)
@@ -103,13 +106,14 @@ plt.show()
 ````
 
 - **Resultado:**
-![Evidência do Exercício 3](/Sprint_2/Evidencias/Desafio/exercicio_3.png)
+![Evidência do Exercício 3](./Sprint_2/Evidencias/Desafio/exercicio_3.png)
 
-### 4. Mostre qual o app mais caro existente no dataset:
+### 4. Mostre qual o app mais caro existente no dataset
 
 Para a resolução deste exercício, primeiro eu fiz o tratamento dos dados retirando o caractere '$' dos valores da coluna 'Price' para defini-los como números flutuantes. Dessa forma, eu consigo fazer a ordenação dos preços dos aplicativos em ordem decrescente para pegar o primeiro valor da coluna, ou seja, o app mais caro do dataset:
 
 - **Código:**
+
 ````python
 # Tratamento dos dados para a visualização
 dados['Price'] = dados['Price'].apply(lambda x: x.replace('$', ''))
@@ -123,13 +127,14 @@ print("O aplicativo mais caro do dataset é o {} com o valor de US${}".format(ma
 ````
 
 - **Resultado:**
-![Evidência do Exercício 4](/Sprint_2/Evidencias/Desafio/exercicio_4.png)
+![Evidência do Exercício 4](./Sprint_2/Evidencias/Desafio/exercicio_4.png)
 
-### 5. Mostre quantos apps são classificados como 'Matuure +17':
+### 5. Mostre quantos apps são classificados como 'Matuure +17'
 
 Para a resolução deste exercício, utilizando a função **loc[]**, eu seleciono todas as linhas que possui 'Mature 17+' como valor na coluna 'Content Rating' e faço o print do tamanho do dataframe utilizando utilizando a função **len()**:
 
 - **Código:**
+
 ````python
 # Crio uma serie com a contagem de aparições da categoria Mature 17+ no dataset
 mature = dados.loc[dados['Content Rating'] == 'Mature 17+']
@@ -137,15 +142,16 @@ print("A quantidade de aplicativos para maiores de 17 anos é {}".format(len(mat
 ````
 
 - **Resultado:**
-![Evidência do Exercício 5](/Sprint_2/Evidencias/Desafio/exercicio_5.png)
+![Evidência do Exercício 5](./Sprint_2/Evidencias/Desafio/exercicio_5.png)
 
-### 6. Mostre o top 10 apps por número de reviews bem como o respectivo número de reviews. Ordene a lista de forma descrescente por número de reviews:
+### 6. Mostre o top 10 apps por número de reviews bem como o respectivo número de reviews. Ordene a lista de forma descrescente por número de reviews
 
-Para a resolução deste exercício, eu primeiro ordeno os dados pela coluna 'Reviews' em ordem decrescente para então filtrar os dados pelas colunas 'App' e 'Reviews'. 
-    
+Para a resolução deste exercício, eu primeiro ordeno os dados pela coluna 'Reviews' em ordem decrescente para então filtrar os dados pelas colunas 'App' e 'Reviews'.
+
 Após isso, bastou pegar as 10 primeiras linhas do dataframe formado e apresenta-las:
 
 - **Código:**
+
 ````python
 # Ordenando o dataset pela quantidade de reviews e selecionando os 10 primeiros
 top_apps_reviws = dados.sort_values(['Reviews'], ascending=False)
@@ -155,13 +161,14 @@ top_apps_reviws
 ````
 
 - **Resultado:**
-![Evidência do Exercício 6](/Sprint_2/Evidencias/Desafio/exercicio_6.png)
+![Evidência do Exercício 6](./Sprint_2/Evidencias/Desafio/exercicio_6.png)
 
-### 7. Crie pelo menos mais 2 cálculos sobre o dataset e apresente um em formato de lista e outra em formato devalor. Por exemplo: "top 10 apps por número de reviews" e "o app mais caro existente no dataset":
+### 7. Crie pelo menos mais 2 cálculos sobre o dataset e apresente um em formato de lista e outra em formato devalor. Por exemplo: "top 10 apps por número de reviews" e "o app mais caro existente no dataset"
 
 O primeiro cálculo feito foi sobre os top 10 apps pela nota recebida. Para isso, eu defino os valores da coluna 'Rating' como números flutuantes e ordeno o dataset de forma decrescnte de acordo com esses valores. Após isso bastou selecionar as 10 primeiras linhas do dataframe e apresenta-los:
 
 - **Código:**
+
 ````python
 # Top 10 apps por Rating
 # Ordenando o dataset pela coluna Rating e selecionando os 10 primeiros
@@ -176,11 +183,12 @@ for app in top_rating.values:
 ````
 
 - **Resultado:**
-![Evidência da Primeira parte do Exercício 7](/Sprint_2/Evidencias/Desafio/exercicio_7A.png)
+![Evidência da Primeira parte do Exercício 7](./Sprint_2/Evidencias/Desafio/exercicio_7A.png)
 
-O segundo cálculo feito foi sobre o aplicativo que teve a atualização mais recente. Para isso, eu transformo os valores da coluna 'Last Updated' para datatime e ordeno o dataframe em ordem decrescente de acordo com esses valores. Após isso, bastou pegar a primeira linha do dataframe e apresentar o nome do app utilizando a função **iloc[0]['App']**:
+O segundo cálculo feito foi sobre o aplicativo que teve a atualização mais recente. Para isso, eu transformo os valores da coluna 'Last Updated' para datatime e ordeno o dataframe em ordem decrescente de acordo com esses valores. Após isso, bastou pegar a primeira linha do dataframe e apresentar o nome do app utilizando a função **iloc[]['App']**:
 
 - **Código:**
+
 ````python
 # Aplicativo atualizado mais recentemente
 ultima_atualizacao = dados
@@ -191,15 +199,16 @@ print(f'O aplicativo atualizado mais recentemente foi {ultima_atualizacao.iloc[0
 ````
 
 - **Resultado:**
-![Evidência da Segunda parte do Exercício 7](/Sprint_2/Evidencias/Desafio/exercicio_7B.png)
+![Evidência da Segunda parte do Exercício 7](./Sprint_2/Evidencias/Desafio/exercicio_7B.png)
 
-### 8. Crie pelo menos outras 2 formas gráficas de exibição dos indicadores acima utilizando a biblioteca Matplotlib.
+### 8. Crie pelo menos outras 2 formas gráficas de exibição dos indicadores acima utilizando a biblioteca Matplotlib
 
 O primeiro gráfico feito foi um gráfico de barras sobre a quantidade de aplicativos por versão de android exigida. Para isso, eu crio uma serie de dados utilizando o função **value_counts()** que calcula a frequência de cada valor em um dataframe. Porém, com a quantidade de valores distintos existntes na tabela, eu faço a média da frequência e seleciono apenas os aplicativos que possui uma repetição maior que essa média utilizando a função **loc[]**
 
 Após isso, bastou fazer a plotagem dos dados usando a função **plt.barh()**:
 
 - **Código:**
+
 ````python
 # Quantidade de aplicativos por versão de android necessária
 versao_android = dados['Android Ver'].value_counts()
@@ -215,7 +224,7 @@ plt.show()
 ````
 
 - **Resultado:**
-![Evidência da primeira parte do Exercício 8](/Sprint_2/Evidencias/Desafio/exercicio_8A.png)
+![Evidência da primeira parte do Exercício 8](./Sprint_2/Evidencias/Desafio/exercicio_8A.png)
 
 O segundo do gráfico se trata sobre um gráfico de dispersão entre a quantidade de vezes que um aplicativo foi instalado e seu preço. Para isso, eu crio duas variáves: installs que se trata sobre a coluna 'Installs' e prices que se trata sobre a coluna 'Price'.
 
@@ -224,6 +233,7 @@ Eu realizo o tratamento dos dados retirando os caracteres '+' e ',' da variável
 Após isso, bastou fazer a plotagem dos dados usando a função **plt.scatter()**:
 
 - **Código:**
+
 ````python
 # Dispersão entre Instalações e Preço buscando encontrar alguma relação entre os dois
 
@@ -248,4 +258,4 @@ plt.show()
 ````
 
 - **Resultado:**
-![Evidência da segunda parte do Exercício 8](/Sprint_2/Evidencias/Desafio/exercicio_8B.png)
+![Evidência da segunda parte do Exercício 8](./Sprint_2/Evidencias/Desafio/exercicio_8B.png)
