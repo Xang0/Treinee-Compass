@@ -1,7 +1,0 @@
-FROM python
-
-WORKDIR /src
-
-COPY . .
-
-CMD ["python","job.py"]

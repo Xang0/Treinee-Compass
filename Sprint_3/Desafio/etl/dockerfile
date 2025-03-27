@@ -1,0 +1,11 @@
+FROM python
+
+WORKDIR /src
+
+RUN mkdir -p /src/data
+
+COPY . .
+
+RUN pip install pandas
+
+CMD ["python3","etl.py"]

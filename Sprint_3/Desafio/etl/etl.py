@@ -40,5 +40,4 @@ dados['Average gross'] = dados['Average gross'].apply(lambda x: x.replace(',',''
 dados['Average gross'] = dados['Average gross'].astype(float)
 
 # Exportando o arquivo
-dados.to_csv('csv_limpo.csv', index=False)
-
+dados.to_csv(r'/src/data/csv_limpo.csv', index=False)

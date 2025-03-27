@@ -1,0 +1,24 @@
+services:
+  etl:
+    build: ./etl
+
+    volumes:
+        - ./volume:/src/data
+
+    networks:
+      - desafio-network
+
+  job:
+    depends_on:
+      - etl
+
+    build: ./job
+
+    volumes:
+        - ./volume:/src/data
+
+    networks:
+      - desafio-network
+
+networks:
+  desafio-network:
