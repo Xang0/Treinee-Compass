@@ -21,5 +21,6 @@ Além disso, chguei também a atender chamados relacionados aos sistemas utiliza
 
 ## Sprints
 
-- [Sprint 1](/Sprint_1/)
-- [Sprint 2](/Sprint_2/)
+- [Sprint 1](./Sprint_1/)
+- [Sprint 2](./Sprint_2/)
+- [Sprint 3](./Sprint_3/)
