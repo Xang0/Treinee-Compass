@@ -23,6 +23,8 @@ Durante a sprint, os conceitos abordados a prendidos por meio de cursos, víedos
 
 ## Certificados
 
+- [Docker para Desenvolvedores (com Docker Swarm e Kubernetes)](./Certificados/UC-1b727686-2943-4352-bbaa-9f88ed24fa0c.jpg)
+
 ## Exercícios
 
 <details>
