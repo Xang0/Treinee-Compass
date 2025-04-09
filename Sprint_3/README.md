@@ -1,6 +1,6 @@
-# Sprint 1
+# Sprint 3
 
-## Descrição da Sprint 1
+## Descrição da Sprint 3
 
 O Docker é uma plataforma essencial para a criação e gerenciamento de containers, permitindo que aplicações e serviços sejam desenvolvidos, testados e executados de forma consistente em qualquer ambiente. Essa tecnologia é amplamente utilizada para otimizar processos de desenvolvimento, garantindo escalabilidade e eficiência. Como parte do trabalho de um engenheiro de dados, o uso de containers facilita a integração entre ferramentas e pipelines de dados, preparando o terreno para o aprofundamento em serviços da AWS, que serão explorados nas próximas etapas da trilha.
 

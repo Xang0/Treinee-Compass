@@ -1,6 +1,6 @@
-# Sprint 1
+# Sprint 2
 
-## Descrição da Sprint 1
+## Descrição da Sprint 2
 
 A linguagem Python é, sem dúvidas, uma das mais populares em projetos de dados. Nesta Sprint você irá conhecer as principais características da linguagem, sua sintaxe e características que a tornam tão aderente ao processamento de dados.
 
