@@ -10,12 +10,15 @@ O repositório da Sprint 1 é dividida da seguinte forma:
 
 - **Certificados:** essa pasta contêm as imagens dos certificados adquiridos durante a sprint que se apresentam também neste README
 - **Desafio:** essa pasta contêm um README que explica o que é o desafio da sprint e as entregas exigidas para a conslusão dele como, por exemplo, um arquivo .SQL ou .py
-- **Evidências:** essa pasta contêm prints que evidênciam a conclusão e os resultados dos exercícios realizados durante a sprint como também do próprio desafio. Neste caso, a pasta está dividida em mais duas: [Desafio](/Sprint_2/Evidencias/Desafio/) que apresenta as evidências do desafio e [Exercicios](/Sprint_2/Evidencias/Exercicios/) que apresenta as evidências dos exercícios.
-- **Exercícios:** essa pasta contêm os arquivos que devem ser entregues para a conslusão dos exercícios realizados durante a sprint. Neste caso, o único exercício existente é divido em [Etapa 1](./Exercicios/etapa1/) e [Etapa 2](./Exercicios/etapa2/).
+- **Evidências:** essa pasta contêm prints que evidênciam a conclusão e os resultados dos exercícios realizados durante a sprint como também do próprio desafio. Neste caso, a pasta está dividida em mais duas: [Desafio](./Evidencias/Desafio/) que apresenta as evidências do desafio e [Exercicios](./Evidencias/Exercicios/) que apresenta as evidências dos exercícios.
+- **Exercícios:** essa pasta contêm os arquivos que devem ser entregues para a conslusão dos exercícios realizados durante a sprint. Neste caso, os exercícios se referem a uma série de práticas envolvendo algumas ferramentas da AWS, sendo elas o [AWS S3](./Exercicios/Lab_S3/), o [AWS Athena](./Exercicios/Lab_athena/), o [AWS Lambda](./Exercicios/Lab_lambda/) e, para não gerar custos adicionais a conta, a [Limpeza dos recursos criados](./Exercicios/Lab_limpeza/).
 
 ## Atividades e Cursos
 
-
+- AWS Skill Builder - AWS Partner: Sales Accreditation
+- AWS Partner: Economias na nuvem AWS
+- AWS Skill Builder - AWS Cloud Quest: Cloud Practitioner
+- Exercícios e desafio envolvendo a utilização de um bucker do AWS S3 para carregamento dos dados e sua análise
 
 ## Certificados
 
